@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0">
+    <meta name="description" content="Gdansk'ta Uber, Bolt ve diğer platformlar için güvenilir taksi filo ortağınız. Polonya'da şoför olmanın en kolay yolu!">
+    <meta name="keywords" content="gdansk şoför, polonya taksi, uber gdansk, bolt gdansk, şoför işi polonya, filo ortaklığı gdansk">
+    <meta property="og:title" content="Gdansk TaxiPartner - Uber & Bolt Filo Ortaklığı">
+    <meta property="og:description" content="Gdansk'ta taksi şoförü olmanın en kolay yolu. Minimum formalite, maksimum kazanç!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="images/og-image.jpg">
+    
+    <title>Gdansk TaxiPartner - Uber & Bolt Filo Ortaklığı | Polonya'da Şoför Olun</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/main.js" as="script">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="favicon.ico" alt="Gdansk TaxiPartner Logo" class="nav__logo-img">
+                <span class="nav__logo-text">GdanskTaxi</span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Ana Sayfa</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="pages/offer.html" class="nav__link">Teklifimiz</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#process" class="nav__link">Nasıl Başlanır</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">İletişim</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </div>
+            </div>
+            
+            <div class="nav__actions">
+                <a href="#contact" class="btn btn--primary">Başvur</a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Gdansk'ta <span class="text-gradient">Taksi Şoförü Olmanın</span> En Kolay Yolu
+                    </h1>
+                    <p class="hero__description">
+                        Polonya'nın güzel Gdansk şehrinde Uber ve Bolt ile çalış! Tüm lisans ve araç işlemleri bizden, 
+                        sen sadece sür ve kazan. Avrupa standartlarında hizmet, Türk dostluğu ile.
+                    </p>
+                    
+                    <div class="hero__stats">
+                        <div class="stat">
+                            <h3 class="stat__number">150+</h3>
+                            <p class="stat__label">Gdansk Şoförü</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat__number">3</h3>
+                            <p class="stat__label">Platform Aktif</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat__number">24/7</h3>
+                            <p class="stat__label">Türkçe Destek</p>
+                        </div>
+                    </div>
+                    
+                    <div class="hero__actions">
+                        <a href="#contact" class="btn btn--primary btn--large">
+                            <i class="fas fa-car"></i>
+                            Gdansk'ta Başla
+                        </a>
+                        <a href="#calculator" class="btn btn--outline btn--large">
+                            <i class="fas fa-calculator"></i>
+                            Zloty Kazancın
+                        </a>
+                    </div>
+                    
+                    <div class="hero__trust">
+                        <p class="trust__text">Gdansk'ta çalıştığımız platformlar:</p>
+                        <div class="trust__logos">
+                            <img src="images/uber-logo.svg" alt="Uber Gdansk" class="trust__logo">
+                            <img src="images/bolt-logo.svg" alt="Bolt Gdansk" class="trust__logo">
+                            <img src="images/freenow-logo.svg" alt="FreeNow Gdansk" class="trust__logo">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero__visual">
+                    <!-- Video element - you can replace src with your video file -->
+                    <video class="hero__video" autoplay muted loop poster="images/video-poster.jpg">
+                        <source src="videos/hero-video.mp4" type="video/mp4">
+                        <source src="videos/hero-video.webm" type="video/webm">
+                        
+                        <!-- Fallback for browsers that don't support video -->
+                        <div class="hero__video-placeholder">
+                            <i class="fas fa-play-circle"></i>
+                            <p>Tarayıcınız video oynatmayı desteklemiyor.<br>
+                            Lütfen tarayıcınızı güncelleyin.</p>
+                        </div>
+                    </video>
+                    
+                    <div class="hero__badge">
+                        <i class="fas fa-star"></i>
+                        <span>4.9/5 Sürücü Memnuniyeti</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-us section" id="why-us">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Neden Gdansk'ta Bizimle Çalışmalısın?</h2>
+                    <p class="section__description">
+                        Polonya'da taksi şoförü olmanın en güvenli ve karlı yolu. Gdansk'ın en deneyimli Türk ekibi.
+                    </p>
+                </div>
+                
+                <div class="why-us__grid">
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="feature__title">Hızlı İşlem</h3>
+                        <p class="feature__description">
+                            Polonya iş izinlerinden araç ruhsatına kadar tüm işlemler 1 hafta içinde hazır.
+                        </p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3 class="feature__title">Polonya Yasal İşlemleri</h3>
+                        <p class="feature__description">
+                            Polonya vergi numarası, sosyal sigorta, taksi lisansı - hepsi bizden. Sen rahat et.
+                        </p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <h3 class="feature__title">Zloty Ödemeler</h3>
+                        <p class="feature__description">
+                            Haftalık düzenli zloty ödemeleri. Avrupa standardı ücretler, Türkiye'den yüksek kazanç.
+                        </p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <h3 class="feature__title">Gdansk Araç Filosu</h3>
+                        <p class="feature__description">
+                            Avrupa standartı araçlar, tam sigortalı, GPS'li. Gdansk trafiğine uygun seçim.
+                        </p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3 class="feature__title">Türkçe Destek</h3>
+                        <p class="feature__description">
+                            24/7 Türkçe destek. Polonya iş hayatından günlük sorunlara kadar her konuda yardım.
+                        </p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3 class="feature__title">Esnek Çalışma</h3>
+                        <p class="feature__description">
+                            Gdansk'ta kendi programın. İstediğin saatlerde çalış, Avrupa yaşam kalitesi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Earnings Calculator Section -->
+        <section class="calculator section" id="calculator">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Gdansk Kazanç Hesaplayıcısı</h2>
+                    <p class="section__description">
+                        Haftalık çalışma saatini gir, Gdansk'ta zloty cinsinden potansiyel kazancını öğren.
+                    </p>
+                </div>
+                
+                <div class="calculator__container">
+                    <div class="calculator__form">
+                        <div class="form-group">
+                            <label for="hours" class="form-label">Haftalık Çalışma Saati</label>
+                            <input type="range" id="hours" class="form-range" min="10" max="80" value="40">
+                            <div class="range-value">
+                                <span id="hours-display">40</span> saat
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="city" class="form-label">Çalışma Bölgesi</label>
+                            <select id="city" class="form-select">
+                                <option value="gdansk-centrum">Gdansk Merkez</option>
+                                <option value="sopot">Sopot</option>
+                                <option value="gdynia">Gdynia</option>
+                                <option value="trojmiasto">Trójmiasto (3 Şehir)</option>
+                                <option value="airport">Havaalanı Çevresi</option>
+                                <option value="port">Liman Bölgesi</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="vehicle-type" class="form-label">Araç Tipi</label>
+                            <select id="vehicle-type" class="form-select">
+                                <option value="economy">Ekonomi</option>
+                                <option value="comfort">Konfor</option>
+                                <option value="premium">Premium</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="calculator__result">
+                        <div class="result-card">
+                            <h3 class="result-title">Tahmini Haftalık Kazanç (Zloty)</h3>
+                            <div class="result-amount">
+                                <span class="currency">PLN</span>
+                                <span id="weekly-earnings">1,800</span>
+                            </div>
+                            <div class="result-breakdown">
+                                <div class="breakdown-item">
+                                    <span>Brüt Kazanç:</span>
+                                    <span id="gross-earnings">PLN 2,100</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span>Komisyon (15%):</span>
+                                    <span id="commission">PLN 315</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span>Net Kazanç:</span>
+                                    <span id="net-earnings">PLN 1,785</span>
+                                </div>
+                            </div>
+                            <div class="result-monthly">
+                                <p>Aylık Tahmini: <strong id="monthly-earnings">PLN 7,140</strong></p>
+                            </div>
+                        </div>
+                        
+                        <div class="calculator__cta">
+                            <a href="#contact" class="btn btn--primary btn--large">
+                                Gdansk'ta Kazanmaya Başla
+                            </a>
+                            <p class="calculator__note">
+                                * Kazançlar Gdansk bölgesi ortalamasıdır ve değişkenlik gösterebilir.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact/Lead Form Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="contact__container">
+                    <div class="contact__content">
+                        <h2 class="contact__title">Gdansk'ta Başvurun</h2>
+                        <p class="contact__description">
+                            Formu doldur, Türkçe danışmanımız 24 saat içinde seni arasın. Polonya'da iş hayatın başlasın!
+                        </p>
+                        
+                        <div class="contact__benefits">
+                            <div class="benefit">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Ücretsiz Türkçe Danışmanlık</span>
+                            </div>
+                            <div class="benefit">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Polonya Vize Yardımı</span>
+                            </div>
+                            <div class="benefit">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Gdansk Yaşam Desteği</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact__form" id="lead-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName" class="form-label">Ad</label>
+                                <input type="text" id="firstName" name="firstName" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName" class="form-label">Soyad</label>
+                                <input type="text" id="lastName" name="lastName" class="form-input" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Telefon Numarası</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+48 123 456 789" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">E-posta Adresi</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="city-form" class="form-label">Şehir</label>
+                            <select id="city-form" name="city" class="form-select" required>
+                                <option value="">Şehir Seçin</option>
+                                <option value="warsaw">Warszawa</option>
+                                <option value="krakow">Kraków</option>
+                                <option value="gdansk">Gdańsk</option>
+                                <option value="wroclaw">Wrocław</option>
+                                <option value="poznan">Poznań</option>
+                                <option value="lodz">Łódź</option>
+                                <option value="other">Diğer</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="experience" class="form-label">Sürücülük Deneyimi</label>
+                            <select id="experience" name="experience" class="form-select" required>
+                                <option value="">Deneyim Seviyesi</option>
+                                <option value="no-experience">Hiç Deneyimim Yok</option>
+                                <option value="some-experience">Biraz Deneyimim Var</option>
+                                <option value="experienced">Deneyimliyim</option>
+                                <option value="professional">Profesyonel Sürücüyüm</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="vehicle-owned" class="form-label">Kendi Aracınız Var mı?</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="vehicle-owned" value="yes" class="radio-input">
+                                    <span class="radio-custom"></span>
+                                    Evet, kendi aracım var
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="vehicle-owned" value="no" class="radio-input">
+                                    <span class="radio-custom"></span>
+                                    Hayır, araç kiralayacağım
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Ek Notlar (Opsiyonel)</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="Bizimle paylaşmak istediğiniz özel bir durum varsa yazabilirsiniz..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checkbox-input" required>
+                                <span class="checkbox-custom"></span>
+                                <span class="checkbox-text">
+                                    <a href="#" class="link">Kişisel Verilerin Korunması</a> hakkındaki bilgilendirilmeyi okudum ve kabul ediyorum.
+                                </span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--large btn--full">
+                            <i class="fas fa-paper-plane"></i>
+                            Başvurumu Gönder
+                        </button>
+                        
+                        <p class="form-note">
+                            24 saat içinde sizi arayarak detaylı bilgi vereceğiz.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <img src="favicon.ico" alt="Gdansk Taxi Partner" class="footer__logo-img">
+                        <span class="footer__logo-text">GdanskTaxi</span>
+                    </div>
+                    <p class="footer__description">
+                        Polonya Gdansk'ta Türk şoförler için güvenilir taksi filo partneri. 
+                        Avrupa'da çalışmanın en kolay yolu.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Hızlı Linkler</h3>
+                    <ul class="footer__links">
+                        <li><a href="#home" class="footer__link">Ana Sayfa</a></li>
+                        <li><a href="pages/offer.html" class="footer__link">Teklifimiz</a></li>
+                        <li><a href="#process" class="footer__link">Nasıl Başlar</a></li>
+                        <li><a href="#fleet" class="footer__link">Filomuz</a></li>
+                        <li><a href="#testimonials" class="footer__link">Yorumlar</a></li>
+                        <li><a href="#contact" class="footer__link">İletişim</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">İletişim</h3>
+                    <div class="footer__contact">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+48123456789">+48 123 456 789</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@gdansktaxi.pl">info@gdansktaxi.pl</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>ul. Długa 123, 80-827 Gdansk, Polonya</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/48123456789">WhatsApp Türkçe Destek</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Yasal Bilgiler</h3>
+                    <div class="footer__legal">
+                        <p><strong>GdanskTaxi Sp. z o.o.</strong></p>
+                        <p>NIP: 9876543210</p>
+                        <p>REGON: 987654321</p>
+                        <p>KRS: 0000987654</p>
+                    </div>
+                    <div class="footer__links">
+                        <a href="#" class="footer__link">Gizlilik Politikası</a>
+                        <a href="#" class="footer__link">Kullanım Şartları</a>
+                        <a href="#" class="footer__link">KVKK</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2025 GdanskTaxi. Tüm hakları saklıdır. | Gdansk, Polonya
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!-- Hero driver placeholder image -->
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="250" r="80" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="400" cy="250" r="60" fill="rgba(255,255,255,0.3)"/>
+  <text x="400" y="260" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24">👨‍💼</text>
+  <rect x="300" y="350" width="200" height="120" rx="10" fill="rgba(255,255,255,0.2)"/>
+  <text x="400" y="380" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Mutlu Sürücü</text>
+  <text x="400" y="405" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="14">Professional Driver</text>
+  <text x="400" y="430" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="14">FlotaPartner</text>
+  <text x="400" y="455" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="12">800x600 Placeholder</text>
+</svg>
